@@ -1,0 +1,15 @@
+﻿<Window x:Class="MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SpotifyAPI"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button Content="Execute Script" HorizontalAlignment="Center" Margin="0,303,0,0" VerticalAlignment="Top" Height="107" Width="720" Click="Button_Click"/>
+        <Label Content="Output:" HorizontalAlignment="Left" Margin="40,29,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Center" Margin="0,60,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="720" Height="216" Name="Output"/>
+
+    </Grid>
+</Window>
